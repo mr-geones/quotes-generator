@@ -1,8 +1,9 @@
-# React + Vite
+A simple quotes generator created in React JS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The quotes are generated as JSON via the API https://type.fit/api/quotes
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+techniques used for this project:
+- useState
+- useEffect
+- fetch/then
+- setTimeOut
